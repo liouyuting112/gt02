@@ -241,7 +241,7 @@ html[data-theme="light"] .theme-btn .icon-moon { display: block; }
   padding: 6px 8px;
   border-radius: 10px;
   transition: all var(--trans);
-  min-width: 50px;
+  min-width: 64px;
   position: relative;
 }
 .icon-btn:hover {
@@ -251,8 +251,8 @@ html[data-theme="light"] .theme-btn .icon-moon { display: block; }
 
 /* Sprite icon container — shows top half, shifts to bottom on hover */
 .icon-sprite {
-  width: 64px;
-  height: 36px;
+  width: 84px;
+  height: 48px;
   overflow: hidden;
   position: relative;
 }
@@ -551,14 +551,14 @@ html[data-theme="light"] .hero-meta {
 }
 .meta-item { display: flex; flex-direction: column; }
 .meta-label {
-  font-size: 0.72rem;
+  font-size: 0.95rem;
   color: var(--text-dim);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 .meta-val {
-  font-size: 0.95rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--text);
 }
